@@ -1,0 +1,106 @@
+2025-11-15 01:52:43,864 - INFO - logger - Starting Thread Simulator application
+2025-11-15 01:52:43,908 - INFO - logger - ttkthemes package is available
+2025-11-15 01:52:44,081 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 01:52:44,081 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 01:52:44,088 - DEBUG - logger - Importing matplotlib
+2025-11-15 01:52:44,326 - INFO - logger - Matplotlib imported successfully
+2025-11-15 01:52:44,326 - DEBUG - logger - Importing simulator modules
+2025-11-15 01:52:44,331 - INFO - logger - Simulator modules imported successfully
+2025-11-15 01:52:44,350 - INFO - logger - ttkthemes package is available and imported
+2025-11-15 01:52:44,350 - INFO - logger - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-15 01:52:44,350 - INFO - logger - Tkinter version: 8.6
+2025-11-15 01:52:44,409 - INFO - logger - Display is available and Tkinter is working
+2025-11-15 01:52:44,412 - INFO - logger - Creating main window
+2025-11-15 01:52:44,972 - INFO - logger - Using ThemedTk with 'arc' theme
+2025-11-15 01:52:44,972 - INFO - logger - Initializing UI...
+2025-11-15 01:52:44,972 - INFO - logger - Initializing ThreadSimulatorUI
+2025-11-15 01:52:44,974 - DEBUG - logger - Creating ThreadSimulator instance
+2025-11-15 01:52:44,974 - INFO - logger - Initializing ThreadSimulator
+2025-11-15 01:52:44,974 - INFO - logger - ThreadSimulator initialized successfully
+2025-11-15 01:52:44,975 - DEBUG - logger - Setting window geometry
+2025-11-15 01:52:44,985 - DEBUG - logger - Creating main frame
+2025-11-15 01:52:44,987 - DEBUG - logger - Creating control panel
+2025-11-15 01:52:44,998 - DEBUG - logger - Creating visualization panel
+2025-11-15 01:52:44,998 - DEBUG - logger - Creating notebook for visualization tabs
+2025-11-15 01:52:44,998 - DEBUG - logger - Creating thread visualization tab
+2025-11-15 01:52:44,999 - DEBUG - logger - Setting up matplotlib figure for thread visualization
+2025-11-15 01:52:45,006 - DEBUG - logger - Creating FigureCanvasTkAgg instance
+2025-11-15 01:52:45,029 - DEBUG - logger - Drawing initial canvas
+2025-11-15 01:52:45,066 - INFO - logger - Thread visualization canvas created successfully
+2025-11-15 01:52:45,104 - DEBUG - logger - Creating status bar
+2025-11-15 01:52:45,105 - DEBUG - logger - Setting up initial UI state
+2025-11-15 01:52:45,105 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:52:45,105 - INFO - logger - Resetting simulation
+2025-11-15 01:52:45,105 - DEBUG - logger - Created process: Example Process
+2025-11-15 01:52:45,105 - DEBUG - logger - Created semaphore: Resource Semaphore
+2025-11-15 01:52:45,105 - DEBUG - logger - Creating threads for example simulation
+2025-11-15 01:52:45,105 - DEBUG - logger - Created thread: Worker-1
+2025-11-15 01:52:45,106 - DEBUG - logger - Created thread: Worker-2
+2025-11-15 01:52:45,106 - DEBUG - logger - Created thread: Worker-3
+2025-11-15 01:52:45,106 - DEBUG - logger - Created thread: Worker-4
+2025-11-15 01:52:45,106 - DEBUG - logger - Created thread: Worker-5
+2025-11-15 01:52:45,106 - DEBUG - logger - Setting threading model to: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:52:45,106 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:52:45,106 - INFO - logger - Example simulation created successfully
+2025-11-15 01:52:45,106 - DEBUG - logger - Starting UI update loop
+2025-11-15 01:52:45,106 - INFO - logger - ThreadSimulatorUI initialization complete
+2025-11-15 01:52:45,107 - INFO - logger - UI initialized successfully
+2025-11-15 01:52:45,107 - DEBUG - logger - Bringing window to foreground
+2025-11-15 01:52:47,600 - INFO - logger - Resetting simulation
+2025-11-15 01:52:47,601 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:52:47,601 - INFO - logger - Starting simulation
+2025-11-15 01:52:47,602 - INFO - logger - Simulation complete
+2025-11-15 01:53:38,037 - INFO - logger - Resetting simulation
+2025-11-15 01:53:38,037 - INFO - logger - Stopping simulation
+2025-11-15 01:53:38,062 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:53:38,062 - INFO - logger - Resetting simulation
+2025-11-15 01:53:38,068 - DEBUG - logger - Created process: Example Process
+2025-11-15 01:53:38,068 - DEBUG - logger - Created semaphore: Resource Semaphore
+2025-11-15 01:53:38,068 - DEBUG - logger - Creating threads for example simulation
+2025-11-15 01:53:38,068 - DEBUG - logger - Created thread: Worker-1
+2025-11-15 01:53:38,068 - DEBUG - logger - Created thread: Worker-2
+2025-11-15 01:53:38,068 - DEBUG - logger - Created thread: Worker-3
+2025-11-15 01:53:38,068 - DEBUG - logger - Created thread: Worker-4
+2025-11-15 01:53:38,068 - DEBUG - logger - Created thread: Worker-5
+2025-11-15 01:53:38,068 - DEBUG - logger - Setting threading model to: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:53:38,068 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:53:38,070 - INFO - logger - Example simulation created successfully
+2025-11-15 01:53:40,773 - INFO - logger - Resetting simulation
+2025-11-15 01:53:40,774 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:53:40,774 - INFO - logger - Starting simulation
+2025-11-15 01:53:40,775 - INFO - logger - Simulation complete
+2025-11-15 01:53:44,944 - INFO - logger - Stopping simulation
+2025-11-15 01:54:32,940 - INFO - logger - Resetting simulation
+2025-11-15 01:54:32,941 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:54:32,941 - INFO - logger - Starting simulation
+2025-11-15 01:54:32,942 - INFO - logger - Simulation complete
+2025-11-15 01:54:37,188 - INFO - logger - Pausing simulation
+2025-11-15 01:54:47,268 - INFO - logger - Resetting simulation
+2025-11-15 01:54:47,269 - INFO - logger - Stopping simulation
+2025-11-15 01:54:47,269 - INFO - logger - Set threading model to Many-to-Many
+2025-11-15 01:54:47,269 - INFO - logger - Starting simulation
+2025-11-15 01:54:56,272 - INFO - logger - Pausing simulation
+2025-11-15 01:54:56,404 - INFO - logger - Simulation complete
+2025-11-15 01:55:08,269 - INFO - logger - Resetting simulation
+2025-11-15 01:55:08,269 - INFO - logger - Stopping simulation
+2025-11-15 01:55:08,270 - INFO - logger - Set threading model to Many-to-Many
+2025-11-15 01:55:08,270 - INFO - logger - Starting simulation
+2025-11-15 01:56:18,421 - INFO - logger - Pausing simulation
+2025-11-15 01:56:18,539 - INFO - logger - Simulation complete
+2025-11-15 01:56:33,129 - INFO - logger - Resetting simulation
+2025-11-15 01:56:33,130 - INFO - logger - Stopping simulation
+2025-11-15 01:56:33,130 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 01:56:33,130 - INFO - logger - Starting simulation
+2025-11-15 01:56:33,131 - INFO - logger - Simulation complete
+2025-11-15 14:11:32,588 - INFO - logger - Closing ThreadSimulatorUI
+2025-11-15 14:11:32,591 - INFO - logger - Stopping simulation
+2025-11-15 14:11:32,713 - ERROR - logger - Application failed to start Exception: can't invoke "raise" command: application has been destroyed
+2025-11-15 14:11:32,717 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\main.py", line 96, in <module>
+    root.lift()
+    ~~~~~~~~~^^
+  File "C:\Users\Krishnakant\AppData\Local\Programs\Python\Python314\Lib\tkinter\__init__.py", line 1186, in tkraise
+    self.tk.call('raise', self._w, aboveThis)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: can't invoke "raise" command: application has been destroyed
+

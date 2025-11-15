@@ -1,0 +1,61 @@
+2025-11-15 01:45:48,644 - INFO - logger - Starting Thread Simulator application
+2025-11-15 01:45:48,688 - INFO - logger - ttkthemes package is available
+2025-11-15 01:45:48,868 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 01:45:48,868 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 01:45:48,875 - DEBUG - logger - Importing matplotlib
+2025-11-15 01:45:49,237 - INFO - logger - Matplotlib imported successfully
+2025-11-15 01:45:49,237 - DEBUG - logger - Importing simulator modules
+2025-11-15 01:45:49,272 - INFO - logger - Simulator modules imported successfully
+2025-11-15 01:45:49,292 - INFO - logger - ttkthemes package is available and imported
+2025-11-15 01:45:49,292 - INFO - logger - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-15 01:45:49,292 - INFO - logger - Tkinter version: 8.6
+2025-11-15 01:45:49,351 - INFO - logger - Display is available and Tkinter is working
+2025-11-15 01:45:49,354 - INFO - logger - Creating main window
+2025-11-15 01:45:50,025 - INFO - logger - Using ThemedTk with 'arc' theme
+2025-11-15 01:45:50,025 - INFO - logger - Initializing UI...
+2025-11-15 01:45:50,025 - INFO - logger - Initializing ThreadSimulatorUI
+2025-11-15 01:45:50,028 - DEBUG - logger - Creating ThreadSimulator instance
+2025-11-15 01:45:50,028 - INFO - logger - Initializing ThreadSimulator
+2025-11-15 01:45:50,028 - INFO - logger - ThreadSimulator initialized successfully
+2025-11-15 01:45:50,029 - DEBUG - logger - Setting window geometry
+2025-11-15 01:45:50,039 - DEBUG - logger - Creating main frame
+2025-11-15 01:45:50,041 - DEBUG - logger - Creating control panel
+2025-11-15 01:45:50,052 - DEBUG - logger - Creating visualization panel
+2025-11-15 01:45:50,052 - DEBUG - logger - Creating notebook for visualization tabs
+2025-11-15 01:45:50,053 - DEBUG - logger - Creating thread visualization tab
+2025-11-15 01:45:50,054 - DEBUG - logger - Setting up matplotlib figure for thread visualization
+2025-11-15 01:45:50,065 - DEBUG - logger - Creating FigureCanvasTkAgg instance
+2025-11-15 01:45:50,085 - DEBUG - logger - Drawing initial canvas
+2025-11-15 01:45:50,131 - INFO - logger - Thread visualization canvas created successfully
+2025-11-15 01:45:50,176 - DEBUG - logger - Creating status bar
+2025-11-15 01:45:50,179 - DEBUG - logger - Setting up initial UI state
+2025-11-15 01:45:50,179 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:45:50,180 - INFO - logger - Resetting simulation
+2025-11-15 01:45:50,182 - DEBUG - logger - Created process: Example Process
+2025-11-15 01:45:50,182 - ERROR - logger - Failed to create example simulation Exception: 'ThreadSimulator' object has no attribute 'msg_queue'
+2025-11-15 01:45:50,183 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 499, in create_example_simulation
+    semaphore = self.create_semaphore(1, "Resource Semaphore")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 80, in create_semaphore
+    semaphore = Semaphore(value, name or f"Semaphore-{len(self.semaphores)+1}", self.msg_queue)
+                                                                                ^^^^^^^^^^^^^^
+AttributeError: 'ThreadSimulator' object has no attribute 'msg_queue'
+
+2025-11-15 01:45:50,184 - ERROR - logger - Error setting up initial UI state Exception: 'ThreadSimulator' object has no attribute 'msg_queue'
+2025-11-15 01:45:50,186 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 643, in _setup_initial_ui_state
+    self.simulator.create_example_simulation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 499, in create_example_simulation
+    semaphore = self.create_semaphore(1, "Resource Semaphore")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 80, in create_semaphore
+    semaphore = Semaphore(value, name or f"Semaphore-{len(self.semaphores)+1}", self.msg_queue)
+                                                                                ^^^^^^^^^^^^^^
+AttributeError: 'ThreadSimulator' object has no attribute 'msg_queue'
+
+2025-11-15 01:45:50,191 - DEBUG - logger - Starting UI update loop
+2025-11-15 01:45:50,191 - INFO - logger - ThreadSimulatorUI initialization complete
+2025-11-15 01:45:50,202 - INFO - logger - UI initialized successfully
+2025-11-15 01:45:50,222 - DEBUG - logger - Bringing window to foreground
+2025-11-15 01:45:50,867 - INFO - logger - Starting main event loop
+2025-11-15 01:45:54,209 - INFO - logger - Resetting simulation

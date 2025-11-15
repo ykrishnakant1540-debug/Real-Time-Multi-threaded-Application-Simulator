@@ -1,0 +1,90 @@
+2025-11-15 14:12:32,314 - INFO - logger - Starting Thread Simulator application
+2025-11-15 14:12:32,383 - INFO - logger - ttkthemes package is available
+2025-11-15 14:12:32,686 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 14:12:32,686 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 14:12:32,697 - DEBUG - logger - Importing matplotlib
+2025-11-15 14:12:33,050 - INFO - logger - Matplotlib imported successfully
+2025-11-15 14:12:33,050 - DEBUG - logger - Importing simulator modules
+2025-11-15 14:12:33,053 - INFO - logger - Simulator modules imported successfully
+2025-11-15 14:12:33,054 - INFO - logger - ttkthemes package is available and imported
+2025-11-15 14:12:33,054 - INFO - logger - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-15 14:12:33,055 - INFO - logger - Tkinter version: 8.6
+2025-11-15 14:12:33,114 - INFO - logger - Display is available and Tkinter is working
+2025-11-15 14:12:33,117 - INFO - logger - Creating main window
+2025-11-15 14:12:33,888 - INFO - logger - Using ThemedTk with 'arc' theme
+2025-11-15 14:12:33,889 - INFO - logger - Initializing UI...
+2025-11-15 14:12:33,889 - INFO - logger - Initializing ThreadSimulatorUI
+2025-11-15 14:12:33,891 - DEBUG - logger - Creating ThreadSimulator instance
+2025-11-15 14:12:33,891 - INFO - logger - Initializing ThreadSimulator
+2025-11-15 14:12:33,892 - INFO - logger - ThreadSimulator initialized successfully
+2025-11-15 14:12:33,892 - DEBUG - logger - Setting window geometry
+2025-11-15 14:12:33,921 - DEBUG - logger - Creating main frame
+2025-11-15 14:12:33,923 - DEBUG - logger - Creating control panel
+2025-11-15 14:12:33,934 - DEBUG - logger - Creating visualization panel
+2025-11-15 14:12:33,934 - DEBUG - logger - Creating notebook for visualization tabs
+2025-11-15 14:12:33,934 - DEBUG - logger - Creating thread visualization tab
+2025-11-15 14:12:33,935 - DEBUG - logger - Setting up matplotlib figure for thread visualization
+2025-11-15 14:12:33,948 - DEBUG - logger - Creating FigureCanvasTkAgg instance
+2025-11-15 14:12:33,982 - DEBUG - logger - Drawing initial canvas
+2025-11-15 14:12:34,035 - INFO - logger - Thread visualization canvas created successfully
+2025-11-15 14:12:34,076 - DEBUG - logger - Creating status bar
+2025-11-15 14:12:34,077 - DEBUG - logger - Setting up initial UI state
+2025-11-15 14:12:34,077 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 14:12:34,077 - INFO - logger - Resetting simulation
+2025-11-15 14:12:34,077 - DEBUG - logger - Created process: Example Process
+2025-11-15 14:12:34,077 - DEBUG - logger - Created semaphore: Resource Semaphore
+2025-11-15 14:12:34,077 - DEBUG - logger - Creating threads for example simulation
+2025-11-15 14:12:34,078 - DEBUG - logger - Created thread: Worker-1
+2025-11-15 14:12:34,078 - DEBUG - logger - Created thread: Worker-2
+2025-11-15 14:12:34,078 - DEBUG - logger - Created thread: Worker-3
+2025-11-15 14:12:34,078 - DEBUG - logger - Created thread: Worker-4
+2025-11-15 14:12:34,078 - DEBUG - logger - Created thread: Worker-5
+2025-11-15 14:12:34,078 - DEBUG - logger - Setting threading model to: ThreadModelType.MANY_TO_ONE
+2025-11-15 14:12:34,078 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 14:12:34,078 - INFO - logger - Example simulation created successfully
+2025-11-15 14:12:34,078 - DEBUG - logger - Starting UI update loop
+2025-11-15 14:12:34,079 - INFO - logger - ThreadSimulatorUI initialization complete
+2025-11-15 14:12:34,079 - INFO - logger - UI initialized successfully
+2025-11-15 14:12:34,079 - DEBUG - logger - Bringing window to foreground
+2025-11-15 14:12:37,281 - INFO - logger - Resetting simulation
+2025-11-15 14:12:37,281 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 14:12:37,281 - INFO - logger - Starting simulation
+2025-11-15 14:12:37,301 - INFO - logger - Simulation complete
+2025-11-15 15:02:00,676 - INFO - logger - Resetting simulation
+2025-11-15 15:02:00,677 - INFO - logger - Stopping simulation
+2025-11-15 15:02:00,677 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 15:02:00,677 - INFO - logger - Resetting simulation
+2025-11-15 15:02:00,678 - DEBUG - logger - Created process: Example Process
+2025-11-15 15:02:00,678 - DEBUG - logger - Created semaphore: Resource Semaphore
+2025-11-15 15:02:00,678 - DEBUG - logger - Creating threads for example simulation
+2025-11-15 15:02:00,678 - DEBUG - logger - Created thread: Worker-1
+2025-11-15 15:02:00,678 - DEBUG - logger - Created thread: Worker-2
+2025-11-15 15:02:00,678 - DEBUG - logger - Created thread: Worker-3
+2025-11-15 15:02:00,678 - DEBUG - logger - Created thread: Worker-4
+2025-11-15 15:02:00,678 - DEBUG - logger - Created thread: Worker-5
+2025-11-15 15:02:00,678 - DEBUG - logger - Setting threading model to: ThreadModelType.MANY_TO_ONE
+2025-11-15 15:02:00,678 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 15:02:00,678 - INFO - logger - Example simulation created successfully
+2025-11-15 15:06:10,070 - INFO - logger - Resetting simulation
+2025-11-15 15:06:10,070 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 15:06:10,070 - INFO - logger - Starting simulation
+2025-11-15 15:06:10,071 - INFO - logger - Simulation complete
+2025-11-15 15:10:43,175 - INFO - logger - Resetting simulation
+2025-11-15 15:10:43,175 - INFO - logger - Stopping simulation
+2025-11-15 15:10:43,176 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 15:10:43,176 - INFO - logger - Resetting simulation
+2025-11-15 15:10:43,176 - DEBUG - logger - Created process: Example Process
+2025-11-15 15:10:43,176 - DEBUG - logger - Created semaphore: Resource Semaphore
+2025-11-15 15:10:43,176 - DEBUG - logger - Creating threads for example simulation
+2025-11-15 15:10:43,176 - DEBUG - logger - Created thread: Worker-1
+2025-11-15 15:10:43,176 - DEBUG - logger - Created thread: Worker-2
+2025-11-15 15:10:43,176 - DEBUG - logger - Created thread: Worker-3
+2025-11-15 15:10:43,177 - DEBUG - logger - Created thread: Worker-4
+2025-11-15 15:10:43,177 - DEBUG - logger - Created thread: Worker-5
+2025-11-15 15:10:43,177 - DEBUG - logger - Setting threading model to: ThreadModelType.MANY_TO_ONE
+2025-11-15 15:10:43,177 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 15:10:43,177 - INFO - logger - Example simulation created successfully
+2025-11-15 15:10:59,499 - INFO - logger - Resetting simulation
+2025-11-15 15:10:59,499 - INFO - logger - Set threading model to Many-to-One
+2025-11-15 15:10:59,500 - INFO - logger - Starting simulation
+2025-11-15 15:10:59,501 - INFO - logger - Simulation complete

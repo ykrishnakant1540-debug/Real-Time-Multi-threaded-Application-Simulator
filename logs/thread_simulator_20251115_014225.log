@@ -1,0 +1,25 @@
+2025-11-15 01:42:25,516 - INFO - logger - Starting Thread Simulator application
+2025-11-15 01:42:25,554 - INFO - logger - ttkthemes package is available
+2025-11-15 01:42:25,758 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 01:42:25,758 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 01:42:25,767 - DEBUG - logger - Importing matplotlib
+2025-11-15 01:42:26,086 - INFO - logger - Matplotlib imported successfully
+2025-11-15 01:42:26,086 - DEBUG - logger - Importing simulator modules
+2025-11-15 01:42:26,089 - ERROR - logger - Failed to import simulator modules Exception: cannot import name 'ThreadState' from 'utils' (C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\utils.py)
+2025-11-15 01:42:26,091 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 37, in <module>
+    from synchronization import Semaphore, Monitor
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\synchronization.py", line 2, in <module>
+    from utils import ThreadState
+ImportError: cannot import name 'ThreadState' from 'utils' (C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\utils.py)
+
+2025-11-15 01:42:26,091 - ERROR - logger - Failed to import ThreadSimulatorUI Exception: cannot import name 'ThreadState' from 'utils' (C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\utils.py)
+2025-11-15 01:42:26,092 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\main.py", line 39, in <module>
+    from ui import ThreadSimulatorUI
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 37, in <module>
+    from synchronization import Semaphore, Monitor
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\synchronization.py", line 2, in <module>
+    from utils import ThreadState
+ImportError: cannot import name 'ThreadState' from 'utils' (C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\utils.py)
+

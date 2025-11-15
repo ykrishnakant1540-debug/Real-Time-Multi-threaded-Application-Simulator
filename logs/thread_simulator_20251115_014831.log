@@ -1,0 +1,35 @@
+2025-11-15 01:48:31,418 - INFO - logger - Starting Thread Simulator application
+2025-11-15 01:48:31,462 - INFO - logger - ttkthemes package is available
+2025-11-15 01:48:31,664 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 01:48:31,664 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 01:48:31,672 - DEBUG - logger - Importing matplotlib
+2025-11-15 01:48:31,960 - INFO - logger - Matplotlib imported successfully
+2025-11-15 01:48:31,961 - DEBUG - logger - Importing simulator modules
+2025-11-15 01:48:31,995 - INFO - logger - Simulator modules imported successfully
+2025-11-15 01:48:31,995 - INFO - logger - ttkthemes package is available and imported
+2025-11-15 01:48:31,996 - INFO - logger - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-15 01:48:31,996 - INFO - logger - Tkinter version: 8.6
+2025-11-15 01:48:32,048 - INFO - logger - Display is available and Tkinter is working
+2025-11-15 01:48:32,051 - INFO - logger - Creating main window
+2025-11-15 01:48:32,659 - INFO - logger - Using ThemedTk with 'arc' theme
+2025-11-15 01:48:32,660 - INFO - logger - Initializing UI...
+2025-11-15 01:48:32,660 - INFO - logger - Initializing ThreadSimulatorUI
+2025-11-15 01:48:32,662 - DEBUG - logger - Creating ThreadSimulator instance
+2025-11-15 01:48:32,662 - INFO - logger - Initializing ThreadSimulator
+2025-11-15 01:48:32,664 - INFO - logger - ThreadSimulator initialized successfully
+2025-11-15 01:48:32,664 - ERROR - logger - Failed to initialize ThreadSimulatorUI Exception: 'ThreadSimulator' object has no attribute 'register_update_callback'
+2025-11-15 01:48:32,667 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 100, in __init__
+    self.simulator.register_update_callback(self.safe_update_ui)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ThreadSimulator' object has no attribute 'register_update_callback'
+
+2025-11-15 01:48:32,668 - ERROR - logger - Application failed to start Exception: 'ThreadSimulator' object has no attribute 'register_update_callback'
+2025-11-15 01:48:32,669 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\main.py", line 89, in <module>
+    app = ThreadSimulatorUI(root)
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 100, in __init__
+    self.simulator.register_update_callback(self.safe_update_ui)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ThreadSimulator' object has no attribute 'register_update_callback'
+

@@ -1,0 +1,65 @@
+2025-11-15 01:51:19,997 - INFO - logger - Starting Thread Simulator application
+2025-11-15 01:51:20,043 - INFO - logger - ttkthemes package is available
+2025-11-15 01:51:20,229 - INFO - logger - Using matplotlib version 3.10.7
+2025-11-15 01:51:20,229 - INFO - logger - Set matplotlib backend to TkAgg
+2025-11-15 01:51:20,237 - DEBUG - logger - Importing matplotlib
+2025-11-15 01:51:20,514 - INFO - logger - Matplotlib imported successfully
+2025-11-15 01:51:20,514 - DEBUG - logger - Importing simulator modules
+2025-11-15 01:51:20,517 - INFO - logger - Simulator modules imported successfully
+2025-11-15 01:51:20,536 - INFO - logger - ttkthemes package is available and imported
+2025-11-15 01:51:20,536 - INFO - logger - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-15 01:51:20,536 - INFO - logger - Tkinter version: 8.6
+2025-11-15 01:51:20,616 - INFO - logger - Display is available and Tkinter is working
+2025-11-15 01:51:20,619 - INFO - logger - Creating main window
+2025-11-15 01:51:21,350 - INFO - logger - Using ThemedTk with 'arc' theme
+2025-11-15 01:51:21,350 - INFO - logger - Initializing UI...
+2025-11-15 01:51:21,350 - INFO - logger - Initializing ThreadSimulatorUI
+2025-11-15 01:51:21,352 - DEBUG - logger - Creating ThreadSimulator instance
+2025-11-15 01:51:21,352 - INFO - logger - Initializing ThreadSimulator
+2025-11-15 01:51:21,353 - INFO - logger - ThreadSimulator initialized successfully
+2025-11-15 01:51:21,353 - DEBUG - logger - Setting window geometry
+2025-11-15 01:51:21,371 - DEBUG - logger - Creating main frame
+2025-11-15 01:51:21,373 - DEBUG - logger - Creating control panel
+2025-11-15 01:51:21,390 - DEBUG - logger - Creating visualization panel
+2025-11-15 01:51:21,390 - DEBUG - logger - Creating notebook for visualization tabs
+2025-11-15 01:51:21,391 - DEBUG - logger - Creating thread visualization tab
+2025-11-15 01:51:21,392 - DEBUG - logger - Setting up matplotlib figure for thread visualization
+2025-11-15 01:51:21,408 - DEBUG - logger - Creating FigureCanvasTkAgg instance
+2025-11-15 01:51:21,437 - DEBUG - logger - Drawing initial canvas
+2025-11-15 01:51:21,499 - INFO - logger - Thread visualization canvas created successfully
+2025-11-15 01:51:21,580 - DEBUG - logger - Creating status bar
+2025-11-15 01:51:21,581 - DEBUG - logger - Setting up initial UI state
+2025-11-15 01:51:21,581 - INFO - logger - Creating example simulation with model: ThreadModelType.MANY_TO_ONE
+2025-11-15 01:51:21,581 - INFO - logger - Resetting simulation
+2025-11-15 01:51:21,581 - DEBUG - logger - Created process: Example Process
+2025-11-15 01:51:21,582 - ERROR - logger - Failed to create example simulation Exception: 'str' object has no attribute 'put'
+2025-11-15 01:51:21,586 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 499, in create_example_simulation
+    semaphore = self.create_semaphore(1, "Resource Semaphore")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 80, in create_semaphore
+    semaphore = Semaphore(value, name or f"Semaphore-{len(self.semaphores)+1}")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\synchronization.py", line 13, in __init__
+    self.msg_queue.put({
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'put'
+
+2025-11-15 01:51:21,586 - ERROR - logger - Error setting up initial UI state Exception: 'str' object has no attribute 'put'
+2025-11-15 01:51:21,588 - ERROR - logger - Traceback (most recent call last):
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\ui.py", line 643, in _setup_initial_ui_state
+    self.simulator.create_example_simulation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 499, in create_example_simulation
+    semaphore = self.create_semaphore(1, "Resource Semaphore")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\simulator.py", line 80, in create_semaphore
+    semaphore = Semaphore(value, name or f"Semaphore-{len(self.semaphores)+1}")
+  File "C:\Users\Krishnakant\Desktop\Operating Sysytem Project\Real-Time-Multi-threaded-Application-Simulator\synchronization.py", line 13, in __init__
+    self.msg_queue.put({
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'put'
+
+2025-11-15 01:51:21,590 - DEBUG - logger - Starting UI update loop
+2025-11-15 01:51:21,590 - INFO - logger - ThreadSimulatorUI initialization complete
+2025-11-15 01:51:21,590 - INFO - logger - UI initialized successfully
+2025-11-15 01:51:21,590 - DEBUG - logger - Bringing window to foreground
+2025-11-15 01:51:22,298 - INFO - logger - Starting main event loop
+2025-11-15 01:51:23,500 - INFO - logger - Resetting simulation
